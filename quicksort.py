@@ -17,7 +17,7 @@ def quicksort(arr, low, high):
         quicksort(arr, pi + 1, high)  # Sub-arreglo derecho
     return arr
 
-# Ejemplo de uso
+# Ejemplo de uso_usuario2
 if __name__ == "__main__":
     datos = [10, 7, 8, 9, 1, 5]
     print("Array ordenado:", quicksort(datos, 0, len(datos) - 1))
